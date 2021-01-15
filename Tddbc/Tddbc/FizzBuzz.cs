@@ -6,7 +6,7 @@ namespace Tddbc
     {
         public string Convert(int value)
         {
-            return "1";
+            return value.ToString();
         }
     }
 }
