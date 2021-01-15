@@ -10,10 +10,8 @@ namespace Tddbc.Test
         {
             // 準備 Arrange
             var fizzBuzz = new FizzBuzz();
-            // 実行 Act 
-            var actual = fizzBuzz.Convert(1);
-            // 検証 Assert
-            Assert.Equal("1", actual);
+            // 実行 & 検証
+            Assert.Equal("1", fizzBuzz.Convert(1));
         }
     }
 }
