@@ -6,9 +6,14 @@ namespace Tddbc.Test
     public class FizzBuzzTest
     {
         [Fact]
-        public void Test1()
+        public void _1を渡すと文字列1を返す()
         {
-            Assert.True(false, "これは失敗するはず");
+            // 準備 Arrange
+            var fizzBuzz = new FizzBuzz();
+            // 実行 Act 
+            var actual = fizzBuzz.Convert(1);
+            // 検証 Assert
+            Assert.Equal("1", actual);
         }
     }
 }
