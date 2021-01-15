@@ -23,16 +23,20 @@ namespace Tddbc.Test
             _fizzBuzz.Convert(num).Should().Be(expected);
         }
 
-        [Fact]
-        public void _3を渡すと文字列Fizzを返す()
+        [Theory]
+        [InlineData(3)]
+        [InlineData(6)]
+        public void _3の倍数の時は数の代わりにFizzと変換する(int num)
         {
-            _fizzBuzz.Convert(3).Should().Be("Fizz");
+            _fizzBuzz.Convert(num).Should().Be("Fizz");
         }
 
-        [Fact]
-        public void _5を渡すと文字列Buzzを返す()
+        [Theory]
+        [InlineData(5)]
+        [InlineData(10)]
+        public void _5の倍数の時は数の代わりにBuzzと変換する(int num)
         {
-            _fizzBuzz.Convert(5).Should().Be("Buzz");
+            _fizzBuzz.Convert(num).Should().Be("Buzz");
         }
     }
 }
