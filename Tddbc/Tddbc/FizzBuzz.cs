@@ -6,7 +6,7 @@ namespace Tddbc
     {
         public string Convert(int value)
         {
-            throw new NotImplementedException();
+            return "1";
         }
     }
 }
