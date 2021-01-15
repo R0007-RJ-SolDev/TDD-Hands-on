@@ -28,5 +28,11 @@ namespace Tddbc.Test
         {
             _fizzBuzz.Convert(3).Should().Be("Fizz");
         }
+
+        [Fact]
+        public void _5を渡すと文字列Buzzを返す()
+        {
+            _fizzBuzz.Convert(5).Should().Be("Buzz");
+        }
     }
 }
