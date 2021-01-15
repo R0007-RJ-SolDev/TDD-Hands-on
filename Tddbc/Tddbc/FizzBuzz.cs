@@ -4,9 +4,9 @@ namespace Tddbc
 {
     public class FizzBuzz
     {
-        public string Convert(int value)
+        public string Convert(int num)
         {
-            return value.ToString();
+            return num.ToString();
         }
     }
 }
