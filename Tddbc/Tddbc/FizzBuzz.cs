@@ -6,7 +6,7 @@ namespace Tddbc
     {
         public string Convert(int num)
         {
-            if (num == 3)
+            if (num % 3 == 0)
             {
                 return "Fizz";
             }
