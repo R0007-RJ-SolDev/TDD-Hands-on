@@ -8,7 +8,7 @@ namespace Tddbc.Test
         [Fact]
         public void Test1()
         {
-            Assert.True(false, "‚±‚ê‚Í¸”s‚·‚é‚Í‚¸");
+            Assert.True(false, "ã“ã‚Œã¯å¤±æ•—ã™ã‚‹ã¯ãš");
         }
     }
 }
